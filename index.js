@@ -58,7 +58,7 @@ function getExtractedSVG(svgStr, query) {
 
 function SVGInlineLoader(content) {
     this.cacheable && this.cacheable();
-    this.value = content;
+    // this.value = content;
     // Configuration
     var query = loaderUtils.parseQuery(this.query);
 
